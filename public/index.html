@@ -1,23 +1,92 @@
 <!DOCTYPE html>
+
 <html>
+
   <head>
-    <title>CSS/HTML Workshop with Drivy</title>
-  </head>
+
+        <meta charset="utf-8" />
+
+        <link rel="stylesheet" href="style.css" />
+
+        <title> drivy </title>
+
+    </head>
+
   <body>
-    <div id="car">
-      <input class="model" type="text" placeholder="Car model"/>
-      <input class="price-by-day" type="number" placeholder="Price by day"/>
-      <input class="price-by-km" type="number" placeholder="Price by km"/>
+
+  <body>
+
+<center><h1>
+
+ Drivy Rent 
+
+ </h1></center>
+
+
+<center><img src="bmw.jpg" alt="bmw.jpg" /></center>
+
+<center><h2> Car Model : <h2></center>
+
+	
+ <center><img src="rrsport.jpeg" alt="rrsport.jpeg" /></center>
+ <center><img src="peugeot.jpg" alt="peugeot.jpg" /></center>
+
+ <center><img src="porche.jpg" alt="porche.jpg" /></center>
+    
+
+	
+
+	
+
+   <center> <div id="car">
+
+	  <p> Car Informations </p>
+	  
+	 
+
+	  <input class="model" type="text" placeholder="Car model"  /><BR>
+
+      <p> Prix per day </p>
+
+	  
+
+	  <input class="price-by-day" type="number" placeholder="Price per day"/>
+
+      <p><p/>
+
+	  <p> Price per km</p>
+
+	  <input class="price-by-km" type="number" placeholder="Price per km"/>
+
+     <p></p>
+	 
+	 </div></center>
+	 
+	 <center><div id="Management">
+
+ <p>Management</p>	<input class="begin" type="date" placeholder="Rental begin date"/>
+ <p>Start & end Rent</p>
+
+ 
+
+ <input class="end" type="date" placeholder="Rental end date"/>
+
+	<p> km proposed</p>
+
+	  <input class="distance" type="number" placeholder="Distance in km"/>
+
+      <p></p>
+
+
+	  <input class="option" type="checkbox" placeholder="Deductible option"/>
+
     </div>
-    <div id="rental">
-      <input class="begin" type="date" placeholder="Rental begin date"/>
-      <input class="end" type="date" placeholder="Rental end date"/>
-      <input class="distance" type="number" placeholder="Distance in km"/>
-      <input class="option" type="checkbox" placeholder="Deductible option"/>
-    </div>
-    <button id="compute">Compute</button>
-    <div id="actors"></div>
+  <button id="compute"; style="background-color: skyblue">Compute</button> 
+
+	<div id="actors"></div>
+
     <script id="template" type="x-tmpl-mustache">
+	  <img src="image5.jpg" alt="Voiture" />
       {{#actors}}
         <div class="actor">
           <span>{{who}}</span>
@@ -26,8 +95,13 @@
         </div>
       {{/actors}}
     </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+
     <script src="drivy.js"></script>
+
     <script src="index.js"></script>
+
   </body>
+
 </html>
