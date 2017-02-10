@@ -1,5 +1,23 @@
 /*eslint-disable space-unary-ops*/
 'use strict';
+var cars = [{
+  'id': 'p306',
+  'vehicule': 'peugeot 306',
+   'img':'p306.jpg',
+  'pricePerDay': 20,
+  'pricePerKm': 0.10
+}, {
+  'id': 'rr-sport',
+  'img':'rr-sport.jpg',
+  'pricePerDay': 60,
+  'pricePerKm': 0.30
+}, {
+  'id': 'p-boxster',
+  'img':'p-boxster.jpg',
+  'pricePerDay': 100,
+  'pricePerKm': 0.45
+}];
+
 
 var DRIVY = DRIVY || {};
 
