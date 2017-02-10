@@ -1,0 +1,17 @@
+body
+{
+	Background-Color: white;
+	font-family: verdana,calibri;
+	font-size: medium;
+}
+h1
+{
+color: black;
+}
+
+div {
+  width: 300px;
+ border-width:1px;
+ border-style:solid;
+ border-color: skyblue
+ }
